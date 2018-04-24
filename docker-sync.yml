@@ -1,0 +1,6 @@
+version: '2'
+syncs:
+  app-sync:
+    src: './src'
+    sync_excludes: ['.idea', '.git']
+    sync_userid: '1000'
